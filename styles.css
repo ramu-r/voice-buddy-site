@@ -12,8 +12,8 @@
   --radius:14px;
   --font-display:"Bricolage Grotesque","Manrope",system-ui,sans-serif;
   --font-sans:"Manrope",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  --font-script:"Pinyon Script",cursive;
-  --font-signature:"Pinyon Script",cursive;
+  --font-script:"Caveat",cursive;
+  --font-signature:"Caveat",cursive;
 }
 *{box-sizing:border-box}
 html{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
@@ -26,7 +26,7 @@ h2{font-size:clamp(1.75rem,2.8vw,2.4rem);font-weight:700}
 .eyebrow{font-family:var(--font-sans);letter-spacing:.26em;font-size:.68rem;font-weight:800;color:var(--plum-3);text-transform:uppercase;margin:0 0 .8rem}
 .eyebrow.light{color:#e9d6ff}
 .muted{color:var(--muted)}
-.script{font-family:var(--font-script);font-weight:400;font-size:2.7rem;line-height:1.1;color:var(--plum-2);transform:rotate(-6deg)}
+.script{font-family:var(--font-script);font-weight:600;font-size:2.1rem;line-height:1.1;color:var(--plum-2);transform:rotate(-6deg)}
 
 /* Buttons */
 .btn{display:inline-flex;align-items:center;gap:.5rem;padding:.85rem 1.5rem;border-radius:999px;font-family:var(--font-sans);font-weight:700;font-size:.93rem;letter-spacing:.02em;text-decoration:none;border:1px solid transparent;cursor:pointer}
@@ -89,7 +89,7 @@ h2{font-size:clamp(1.75rem,2.8vw,2.4rem);font-weight:700}
 .about-quote span{font-size:2.2rem;line-height:.5;display:block;font-style:normal}
 .role{font-family:var(--font-sans);font-weight:700;font-size:.9rem;letter-spacing:.01em;line-height:1.5}
 .about-copy p{color:#3b3348;font-size:.98rem}
-.signature{font-family:var(--font-signature);font-weight:400;font-size:3.4rem;line-height:1.2;color:var(--plum-2);transform:rotate(-4deg);margin-top:.4rem}
+.signature{font-family:var(--font-signature);font-weight:700;font-size:2.6rem;line-height:1.1;color:var(--plum-2);transform:rotate(-4deg);margin-top:.4rem}
 .about-stats{border-left:1px solid var(--line);padding-left:1.5rem;display:grid;gap:1.2rem}
 .stat strong{display:block;font-family:var(--font-display);font-optical-sizing:auto;font-weight:700;font-size:1.9rem;letter-spacing:-.02em;color:var(--plum)}
 .stat span{font-family:var(--font-sans);font-size:.82rem;font-weight:600;color:var(--muted)}
@@ -126,7 +126,7 @@ h2{font-size:clamp(1.75rem,2.8vw,2.4rem);font-weight:700}
 .cta{background:linear-gradient(100deg,#2d0b4a 20%,#6b2aa0 60%,#8a4bb5 100%);color:#fff;padding:3rem 0}
 .cta h2{color:#fff}
 .cta-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:2rem;align-items:center}
-.light-script{font-family:var(--font-script);color:#ffe9c9;font-weight:400;font-size:3rem;line-height:1.15;text-align:right;transform:rotate(-4deg)}
+.light-script{font-family:var(--font-script);color:#ffe9c9;font-weight:600;font-size:2.4rem;line-height:1.15;text-align:right;transform:rotate(-4deg)}
 .cta-media{display:flex;gap:1rem;align-items:center;justify-content:flex-end}
 
 /* Footer */
